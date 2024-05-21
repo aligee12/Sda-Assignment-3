@@ -1,0 +1,118 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+a {
+    color: #5C6BC0;
+    text-decoration: none;
+}
+
+/* Dashboard container */
+.dashboard {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar styling */
+aside {
+    width: 250px;
+    background: linear-gradient(to bottom, #8e2de2, #4a00e0);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 1rem 0;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+}
+
+/* Main content area */
+main {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.signout-btn {
+    background: #ff5c5c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.watch-now, .recommended, .popular {
+    margin-bottom: 2rem;
+}
+
+.live-video, .video-grid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.video-card {
+    background: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    width: calc(25% - 1rem);
+}
+
+.video-card img {
+    width: 100%;
+    height: auto;
+}
+
+.video-card p {
+    padding: 10px;
+    text-align: center;
+}

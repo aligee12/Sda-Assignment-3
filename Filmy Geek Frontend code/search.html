@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmy Geek - Search</title>
+    <link rel="stylesheet" href="styles/search.css">
+</head>
+<body>
+    <div class="search-page">
+        <header>
+            <div class="logo">FILMY GEEK</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="main.html">Main</a></li>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">Chat & Watch</a></li>
+                    <li><a href="#">Premiere</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="search-container">
+                <h1>Search for Movies</h1>
+                <form action="#" method="GET">
+                    <input type="text" name="search" id="search" placeholder="Search for movies...">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+            <div class="search-results">
+                <!-- Search results will be dynamically generated here -->
+            </div>
+        </main>
+
+        <!-- Recommended Movies Section -->
+        <div class="recommended-movies">
+            <h2>Recommended Movies</h2>
+            <div class="recommended-movies-grid">
+                <div class="video-card">
+                    <img src="images2.jpg" alt="Titanic">
+                    <p>Titanic</p>
+                </div>
+                <div class="video-card">
+                    <img src="images3.jpg" alt="Black Widow">
+                    <p>Black Widow</p>
+                </div>
+                <div class="video-card">
+                    <img src="images4.jpg" alt="Inception">
+                    <p>Inception</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/search.js"></script>
+</body>
+</html>
